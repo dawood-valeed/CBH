@@ -1,0 +1,4 @@
+ - Make `candidate = TRIVIAL_PARTITION_KEY` and remove the check for when `candidate` is empty and then assign the value of TRIVIAL_PARTITION_KEY.
+ - Move checks for `candidate` validation up inside the `event.partitionKey` check if statement.
+ - Remove typeof check and make it a ternary function for ease of readibility.
+ - Take all the constants outside of the function.
